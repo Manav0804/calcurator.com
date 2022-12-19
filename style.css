@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #494949;
+}
+
+button {
+  padding: 18px;
+  margin: 9px;
+
+  width: 66px;
+  height: 66px;
+
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+  background-color: cyan;
+
+  font-family: 'Nova Oval', cursive;
+  font-style: italic;
+  font-weight: 900;
+
+}
+
+button:hover {
+  color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.num {
+  color: #494949;
+  background-color: #191919;
+}
+
+button.num:hover {
+  color: black;
+}
+
+button.equl {
+  background-color: rgb(179, 179, 179);
+  color: black;
+}
+

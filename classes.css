@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.text-align {
+    text-align: center;
+}
+
+.heading {
+    width: 450px;
+    font-family: 'Lobster', cursive;
+    height: 4rem;
+    font-size: 3rem;
+    border: 2px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 8px 15px 5px #333;
+}
+
+h1:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 5px 15px 5px rgba(255, 255, 255, 0.589);
+}
+
+.mr {
+    margin: 14px auto 24px auto;
+    padding: 4px 0;
+}
+
+
+.container {
+    margin: auto;
+    padding: 40px;
+    border: 2px;
+    border-radius: 15px;
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    box-shadow: 0 7px 10px 10px #252525;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.dis {
+    height: 35px;
+    width: 294px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 30px 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 5px 3px rgb(94, 94, 94);
+}
+
+@media screen and (max-width: 460px) {
+    .heading {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .heading {
+        width: 300px;
+        margin: 14px auto 24px 40px;
+        padding: 4px 0;
+    }
+}
